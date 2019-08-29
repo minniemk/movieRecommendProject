@@ -17,7 +17,6 @@
 <meta name="description"
 	content="영화 보고 갈래는 무인 팀이 제작한 사용자 경험 기반 영화 추천 사이트 입니다.">
 <meta name="author" content="Team Muin">
-<!-- Bootstrap core CSS -->
 <link
 	href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap"
 	rel="stylesheet">
@@ -26,6 +25,7 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
 	rel="stylesheet">
+<!-- Bootstrap core CSS -->
 <link
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -177,7 +177,7 @@ $(function(){
 		<div id='caption'>${mvo.memberName}님의 탁월한 안목을 믿습니다.</div>
 		<div class="card mb-3">
 			<div class="table-responsive">
-				<table class="table table-borderless" width="100%" cellspacing="0">
+				<table class="table table-borderless table-dark table-hover" width="100%" cellspacing="0">
 					<thead style="text-align: center; vertical-align: middle;"></thead>
 	<input class="btn btn-light" type="button" id="reSelectRecommendView" value="다른 영화 없어?"/>
 	<div id="movieListContainer">
